@@ -14,7 +14,7 @@ NITCbase is organized into **eight layers**, each representing a core component 
 
 ### 🧩 Layers (Bottom to Top)
 
-1. **Physical Layer** – Handles raw disk read/write operations (✅ Provided).
+1. **Physical Layer** – Handles raw disk read/write operations (Provided).
 2. **Buffer Layer** – Implements disk block caching using LRU policy.
 3. **B+ Tree Layer** – Supports creation and search operations using B+ Trees for indexing.
 4. **Block Access Layer** – Manages low-level record-level operations like insert, select, and project.
